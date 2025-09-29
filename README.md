@@ -1,47 +1,67 @@
 # Expense-Tracker-
-Leave Tracker App – Salesforce Lightning Web Components Application
+Expense Tracker App – A Salesforce Lightning Web Components Application for Managing Employee Expenses
 
-Description:
-The Leave Tracker App is a Salesforce Lightning Web Components (LWC) application designed to manage employee leave requests with a streamlined manager approval workflow. This application provides a complete leave management system built on the Salesforce platform using Lightning Web Components, Apex classes, and custom objects. It allows employees to submit leave requests and managers to approve or reject them with real-time status updates.
+This application provides a complete expense management system built on the Salesforce platform using Lightning Web Components (LWC), Apex classes, and custom objects. It allows employees to submit expense requests and managers to approve or reject them with real-time status updates.
 
-Project Features:
+The project includes a custom Expense__c object with fields for Date, Category, Amount, Description, Receipt, Status, User, and Manager Comment. The frontend is built using Lightning Web Components with a clean, responsive interface that works across desktop and mobile devices. The backend uses Apex controllers to handle data operations and business logic with role-based access control.
 
-Custom Objects: The project includes a LeaveRequest object with fields for From Date, To Date, Reason, Status, User, and Manager Comment.
+Employees can:
 
-Frontend: Built using Lightning Web Components for a clean, responsive interface that works across desktop and mobile devices.
+Submit new expense requests.
 
-Backend: Uses Apex controllers to handle data operations and business logic with role-based access control.
+View their personal expense history.
 
-Employee Functionality: Employees can submit new leave requests, view personal request history, edit pending requests, and track the status of submissions.
+Edit pending requests.
 
-Manager Functionality: Managers can view all team leave requests, approve or reject them with one-click actions, add comments, and manage the approval workflow through a comprehensive dashboard.
+Track the status of their submissions.
 
-Development Phases:
-The application was developed in 10 phases, covering:
+Managers can:
 
-Project Setup
+View all team expense requests.
 
-Custom Object Creation
+Approve or reject requests with one-click actions.
 
-Apex Development
+Add comments to requests.
 
-Lightning Web Components Creation
+Manage the approval workflow through a comprehensive dashboard.
 
-Lightning App Setup
+The application was developed in 10 phases covering:
 
-User Acceptance Testing
+Project setup and environment initialization
 
-Manager Approval Workflow Implementation
+Custom object creation (Expense__c)
 
-Controller Enhancements
+Apex class development for business logic
 
-Performance Optimization
+Lightning Web Components creation
 
-Comprehensive Testing and Verification
+Lightning App and page setup
 
-Developer:
-SHAIK BAJI, Electronics and Communication Engineering Student
-Contact: bajishaikmj@gmail.com
+User Acceptance Testing (UAT)
 
-Technologies Used:
-Salesforce Lightning Platform, Lightning Web Components, Apex, Custom Objects, Lightning Design System, Visual Studio Code, Salesforce CLI
+Manager approval workflow implementation
+
+Controller enhancements for role-based views
+
+Performance optimization and debugging
+
+Comprehensive testing and verification
+
+Built by: MOHAMMAD HIFZA, Electronics and Communication Engineering Student
+Contact: mohammad.hifza2601@gmail.com
+
+Technologies used:
+
+Salesforce Lightning Platform
+
+Lightning Web Components (LWC)
+
+Apex Classes
+
+Salesforce Custom Objects
+
+Salesforce Lightning Design System (SLDS)
+
+Visual Studio Code
+
+Salesforce CLI
